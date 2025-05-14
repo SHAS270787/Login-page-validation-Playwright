@@ -3,7 +3,7 @@
         "formatOptions" : {
             "snippetInteface": "async-await"
         },
-        "paths": [ "Src/Test/Features/*.feature" ],
+        "paths": [ "Src/Test/Features/login.feature" ],
         "publishQuite" : true,
         "dryRun": false,
         "require": [ 
