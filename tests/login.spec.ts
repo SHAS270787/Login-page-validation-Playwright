@@ -7,12 +7,7 @@ test.describe('Login Page Validation', () => {
     await page.fill('[data-test="username"]', 'wrong_user');
     await page.fill('[data-test="password"]', 'wrong_pass');
     await page.click('[data-test="login-button"]');
-<<<<<<< HEAD
-    await expect(page.locator('[data-test="error"]')).toContainText('Username and password do not match');
-=======
-    await expect(page.locator('[data-test="error"]'))
-      .toContainText('Username and password do not match any user');
->>>>>>> 793dd5f (Add Playwright config, tests, and GitHub Actions workflow)
+    await expect(page.locator('[data-test="error"]')).toContainText('Username and password do not match any user');
   });
 
   test('valid login navigates to inventory', async ({ page }) => {
