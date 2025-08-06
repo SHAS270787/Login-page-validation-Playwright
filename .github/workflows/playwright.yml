@@ -2,9 +2,9 @@ name: Playwright Tests
 
 on:
   push:
-    branches: [main]
+    branches: [main, login-basic-clean]
   pull_request:
-    branches: [main]
+    branches: [main, login-basic-clean]
 
 jobs:
   test:
