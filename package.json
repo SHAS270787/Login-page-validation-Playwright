@@ -1,7 +1,6 @@
 {
   "name": "playwright_cucumber",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "cucumber-js Test"
@@ -12,8 +11,17 @@
   "type": "commonjs",
   "devDependencies": {
     "@cucumber/cucumber": "^11.2.0",
-    "@playwright/test": "^1.52.0",
+    "@playwright/test": "^1.54.2",
     "@types/node": "^22.15.14",
     "ts-node": "^10.9.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SHAS270787/Login-page-validation---Playwright.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SHAS270787/Login-page-validation---Playwright/issues"
+  },
+  "homepage": "https://github.com/SHAS270787/Login-page-validation---Playwright#readme",
+  "description": ""
 }
